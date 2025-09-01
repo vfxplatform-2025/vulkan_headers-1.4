@@ -1,0 +1,559 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      The system is: Linux - 5.14.0-503.35.1.el9_5.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/3.26.5/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/3.26.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/CMakeScratch/TryCompile-nIiMFS"
+      binary: "/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/CMakeScratch/TryCompile-nIiMFS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/CMakeScratch/TryCompile-nIiMFS
+        
+        Run Build Command(s):/core/Linux/APPZ/packages/ninja/1.11.1/bin/ninja -v cmTC_77439 && [1/2] /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/gcc   -fPIE   -v -o CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o -c /storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/gcc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /home/m83/chulho/gcc/gcc-11.5.0/source/gcc-11.5.0/configure --prefix=/core/Linux/APPZ/packages/gcc/11.5.0 --enable-languages=c,c++,fortran --disable-multilib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-checking=release --enable-lto --with-system-zlib --with-pkgversion='M83 GCC 11.5.0 for VFX'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (M83 GCC 11.5.0 for VFX) 
+        COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77439.dir/'
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/cc1 -quiet -v -iprefix /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_77439.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -o /tmp/ccaHq6eo.s
+        GNU C17 (M83 GCC 11.5.0 for VFX) version 11.5.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../x86_64-pc-linux-gnu/include"
+        ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include"
+        ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed"
+        ignoring nonexistent directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../x86_64-pc-linux-gnu/include"
+        ignoring duplicate directory "/core/Linux/APPZ/packages/sqlite/3.44.0/include"
+          as it is a non-system directory that duplicates a system directory
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /core/Linux/APPZ/packages/xz/5.4.5/include
+         /core/Linux/APPZ/packages/zlib/1.2.13/include
+         /core/Linux/APPZ/packages/libffi/3.4.4/include
+         /core/Linux/APPZ/packages/bzip2/1.0.8/include
+         /core/Linux/APPZ/packages/sqlite/3.44.0/include
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed
+         /usr/local/include
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../include
+         /usr/include
+        End of search list.
+        GNU C17 (M83 GCC 11.5.0 for VFX) version 11.5.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d1da48295e62bcb8bd01bea0eacc649b
+        COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77439.dir/'
+         as -v --64 -o CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o /tmp/ccaHq6eo.s
+        GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-63.el9
+        COMPILER_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/
+        LIBRARY_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/core/Linux/APPZ/packages/sqlite/3.44.0/lib/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/gcc  -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -v CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o -o cmTC_77439   && :
+        Using built-in specs.
+        COLLECT_GCC=/core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/gcc
+        COLLECT_LTO_WRAPPER=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /home/m83/chulho/gcc/gcc-11.5.0/source/gcc-11.5.0/configure --prefix=/core/Linux/APPZ/packages/gcc/11.5.0 --enable-languages=c,c++,fortran --disable-multilib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-checking=release --enable-lto --with-system-zlib --with-pkgversion='M83 GCC 11.5.0 for VFX'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (M83 GCC 11.5.0 for VFX) 
+        COMPILER_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/
+        LIBRARY_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/core/Linux/APPZ/packages/sqlite/3.44.0/lib/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib' '-v' '-o' 'cmTC_77439' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_77439.'
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/collect2 -plugin /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/liblto_plugin.so -plugin-opt=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3F5NJA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77439 /lib/../lib64/crt1.o /lib/../lib64/crti.o /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0 -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../.. CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib' '-v' '-o' 'cmTC_77439' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_77439.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/core/Linux/APPZ/packages/xz/5.4.5/include]
+          add: [/core/Linux/APPZ/packages/zlib/1.2.13/include]
+          add: [/core/Linux/APPZ/packages/libffi/3.4.4/include]
+          add: [/core/Linux/APPZ/packages/bzip2/1.0.8/include]
+          add: [/core/Linux/APPZ/packages/sqlite/3.44.0/include]
+          add: [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include]
+          add: [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed]
+          add: [/usr/local/include]
+          add: [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/core/Linux/APPZ/packages/xz/5.4.5/include] ==> [/core/Linux/APPZ/packages/xz/5.4.5/include]
+        collapse include dir [/core/Linux/APPZ/packages/zlib/1.2.13/include] ==> [/core/Linux/APPZ/packages/zlib/1.2.13/include]
+        collapse include dir [/core/Linux/APPZ/packages/libffi/3.4.4/include] ==> [/core/Linux/APPZ/packages/libffi/3.4.4/include]
+        collapse include dir [/core/Linux/APPZ/packages/bzip2/1.0.8/include] ==> [/core/Linux/APPZ/packages/bzip2/1.0.8/include]
+        collapse include dir [/core/Linux/APPZ/packages/sqlite/3.44.0/include] ==> [/core/Linux/APPZ/packages/sqlite/3.44.0/include]
+        collapse include dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/include]
+        collapse include dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../include] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/core/Linux/APPZ/packages/xz/5.4.5/include;/core/Linux/APPZ/packages/zlib/1.2.13/include;/core/Linux/APPZ/packages/libffi/3.4.4/include;/core/Linux/APPZ/packages/bzip2/1.0.8/include;/core/Linux/APPZ/packages/sqlite/3.44.0/include;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/include;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed;/usr/local/include;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/CMakeScratch/TryCompile-nIiMFS]
+        ignore line: []
+        ignore line: [Run Build Command(s):/core/Linux/APPZ/packages/ninja/1.11.1/bin/ninja -v cmTC_77439 && [1/2] /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/gcc   -fPIE   -v -o CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o -c /storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/gcc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /home/m83/chulho/gcc/gcc-11.5.0/source/gcc-11.5.0/configure --prefix=/core/Linux/APPZ/packages/gcc/11.5.0 --enable-languages=c c++ fortran --disable-multilib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-checking=release --enable-lto --with-system-zlib --with-pkgversion='M83 GCC 11.5.0 for VFX']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (M83 GCC 11.5.0 for VFX) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77439.dir/']
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/cc1 -quiet -v -iprefix /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_77439.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -o /tmp/ccaHq6eo.s]
+        ignore line: [GNU C17 (M83 GCC 11.5.0 for VFX) version 11.5.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include"]
+        ignore line: [ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/core/Linux/APPZ/packages/sqlite/3.44.0/include"]
+        ignore line: [  as it is a non-system directory that duplicates a system directory]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /core/Linux/APPZ/packages/xz/5.4.5/include]
+        ignore line: [ /core/Linux/APPZ/packages/zlib/1.2.13/include]
+        ignore line: [ /core/Linux/APPZ/packages/libffi/3.4.4/include]
+        ignore line: [ /core/Linux/APPZ/packages/bzip2/1.0.8/include]
+        ignore line: [ /core/Linux/APPZ/packages/sqlite/3.44.0/include]
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include]
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (M83 GCC 11.5.0 for VFX) version 11.5.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d1da48295e62bcb8bd01bea0eacc649b]
+        ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77439.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o /tmp/ccaHq6eo.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-63.el9]
+        ignore line: [COMPILER_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/core/Linux/APPZ/packages/sqlite/3.44.0/lib/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/gcc  -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -v CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o -o cmTC_77439   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /home/m83/chulho/gcc/gcc-11.5.0/source/gcc-11.5.0/configure --prefix=/core/Linux/APPZ/packages/gcc/11.5.0 --enable-languages=c c++ fortran --disable-multilib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-checking=release --enable-lto --with-system-zlib --with-pkgversion='M83 GCC 11.5.0 for VFX']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (M83 GCC 11.5.0 for VFX) ]
+        ignore line: [COMPILER_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/core/Linux/APPZ/packages/sqlite/3.44.0/lib/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib' '-v' '-o' 'cmTC_77439' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_77439.']
+        link line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/collect2 -plugin /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/liblto_plugin.so -plugin-opt=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3F5NJA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77439 /lib/../lib64/crt1.o /lib/../lib64/crti.o /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0 -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../.. CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc3F5NJA.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_77439] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o] ==> obj [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o]
+          arg [-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib] ==> dir [/core/Linux/APPZ/packages/sqlite/3.44.0/lib]
+          arg [-L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0] ==> dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0]
+          arg [-L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc] ==> dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc]
+          arg [-L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64] ==> dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib] ==> dir [/core/Linux/APPZ/packages/sqlite/3.44.0/lib]
+          arg [-L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../..] ==> dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../..]
+          arg [CMakeFiles/cmTC_77439.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o] ==> obj [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o]
+        collapse obj [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/core/Linux/APPZ/packages/sqlite/3.44.0/lib] ==> [/core/Linux/APPZ/packages/sqlite/3.44.0/lib]
+        collapse library dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0]
+        collapse library dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc]
+        collapse library dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/core/Linux/APPZ/packages/sqlite/3.44.0/lib] ==> [/core/Linux/APPZ/packages/sqlite/3.44.0/lib]
+        collapse library dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../..] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/core/Linux/APPZ/packages/sqlite/3.44.0/lib;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib64;/lib64;/usr/lib64;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/CMakeScratch/TryCompile-QWuae5"
+      binary: "/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/CMakeScratch/TryCompile-QWuae5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/CMakeScratch/TryCompile-QWuae5
+        
+        Run Build Command(s):/core/Linux/APPZ/packages/ninja/1.11.1/bin/ninja -v cmTC_78725 && [1/2] /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++   -fPIE   -v -o CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o -c /storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /home/m83/chulho/gcc/gcc-11.5.0/source/gcc-11.5.0/configure --prefix=/core/Linux/APPZ/packages/gcc/11.5.0 --enable-languages=c,c++,fortran --disable-multilib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-checking=release --enable-lto --with-system-zlib --with-pkgversion='M83 GCC 11.5.0 for VFX'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (M83 GCC 11.5.0 for VFX) 
+        COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78725.dir/'
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/cc1plus -quiet -v -iprefix /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/ -D_GNU_SOURCE /storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_78725.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fPIE -o /tmp/ccusNPPi.s
+        GNU C++17 (M83 GCC 11.5.0 for VFX) version 11.5.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../x86_64-pc-linux-gnu/include"
+        ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0"
+        ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/x86_64-pc-linux-gnu"
+        ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/backward"
+        ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include"
+        ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed"
+        ignoring nonexistent directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../x86_64-pc-linux-gnu/include"
+        ignoring duplicate directory "/core/Linux/APPZ/packages/sqlite/3.44.0/include"
+          as it is a non-system directory that duplicates a system directory
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /core/Linux/APPZ/packages/xz/5.4.5/include
+         /core/Linux/APPZ/packages/zlib/1.2.13/include
+         /core/Linux/APPZ/packages/libffi/3.4.4/include
+         /core/Linux/APPZ/packages/bzip2/1.0.8/include
+         /core/Linux/APPZ/packages/sqlite/3.44.0/include
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/x86_64-pc-linux-gnu
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/backward
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed
+         /usr/local/include
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../include
+         /usr/include
+        End of search list.
+        GNU C++17 (M83 GCC 11.5.0 for VFX) version 11.5.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 2b7f440c5d8422a162c0e6dc0363975f
+        COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78725.dir/'
+         as -v --64 -o CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccusNPPi.s
+        GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-63.el9
+        COMPILER_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/
+        LIBRARY_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/core/Linux/APPZ/packages/sqlite/3.44.0/lib/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++  -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -v CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_78725   && :
+        Using built-in specs.
+        COLLECT_GCC=/core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++
+        COLLECT_LTO_WRAPPER=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /home/m83/chulho/gcc/gcc-11.5.0/source/gcc-11.5.0/configure --prefix=/core/Linux/APPZ/packages/gcc/11.5.0 --enable-languages=c,c++,fortran --disable-multilib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-checking=release --enable-lto --with-system-zlib --with-pkgversion='M83 GCC 11.5.0 for VFX'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (M83 GCC 11.5.0 for VFX) 
+        COMPILER_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/
+        LIBRARY_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/core/Linux/APPZ/packages/sqlite/3.44.0/lib/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib' '-v' '-o' 'cmTC_78725' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78725.'
+         /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/collect2 -plugin /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/liblto_plugin.so -plugin-opt=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccHdrzk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_78725 /lib/../lib64/crt1.o /lib/../lib64/crti.o /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0 -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../.. CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib' '-v' '-o' 'cmTC_78725' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78725.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/core/Linux/APPZ/packages/xz/5.4.5/include]
+          add: [/core/Linux/APPZ/packages/zlib/1.2.13/include]
+          add: [/core/Linux/APPZ/packages/libffi/3.4.4/include]
+          add: [/core/Linux/APPZ/packages/bzip2/1.0.8/include]
+          add: [/core/Linux/APPZ/packages/sqlite/3.44.0/include]
+          add: [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0]
+          add: [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/x86_64-pc-linux-gnu]
+          add: [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/backward]
+          add: [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include]
+          add: [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed]
+          add: [/usr/local/include]
+          add: [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/core/Linux/APPZ/packages/xz/5.4.5/include] ==> [/core/Linux/APPZ/packages/xz/5.4.5/include]
+        collapse include dir [/core/Linux/APPZ/packages/zlib/1.2.13/include] ==> [/core/Linux/APPZ/packages/zlib/1.2.13/include]
+        collapse include dir [/core/Linux/APPZ/packages/libffi/3.4.4/include] ==> [/core/Linux/APPZ/packages/libffi/3.4.4/include]
+        collapse include dir [/core/Linux/APPZ/packages/bzip2/1.0.8/include] ==> [/core/Linux/APPZ/packages/bzip2/1.0.8/include]
+        collapse include dir [/core/Linux/APPZ/packages/sqlite/3.44.0/include] ==> [/core/Linux/APPZ/packages/sqlite/3.44.0/include]
+        collapse include dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/include/c++/11.5.0]
+        collapse include dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/x86_64-pc-linux-gnu] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/include/c++/11.5.0/x86_64-pc-linux-gnu]
+        collapse include dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/backward] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/include/c++/11.5.0/backward]
+        collapse include dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/include]
+        collapse include dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../include] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/core/Linux/APPZ/packages/xz/5.4.5/include;/core/Linux/APPZ/packages/zlib/1.2.13/include;/core/Linux/APPZ/packages/libffi/3.4.4/include;/core/Linux/APPZ/packages/bzip2/1.0.8/include;/core/Linux/APPZ/packages/sqlite/3.44.0/include;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/include/c++/11.5.0;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/include/c++/11.5.0/x86_64-pc-linux-gnu;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/include/c++/11.5.0/backward;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/include;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed;/usr/local/include;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/CMakeScratch/TryCompile-QWuae5]
+        ignore line: []
+        ignore line: [Run Build Command(s):/core/Linux/APPZ/packages/ninja/1.11.1/bin/ninja -v cmTC_78725 && [1/2] /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++   -fPIE   -v -o CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o -c /storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /home/m83/chulho/gcc/gcc-11.5.0/source/gcc-11.5.0/configure --prefix=/core/Linux/APPZ/packages/gcc/11.5.0 --enable-languages=c c++ fortran --disable-multilib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-checking=release --enable-lto --with-system-zlib --with-pkgversion='M83 GCC 11.5.0 for VFX']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (M83 GCC 11.5.0 for VFX) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78725.dir/']
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/cc1plus -quiet -v -iprefix /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/ -D_GNU_SOURCE /storage/.NAS5/rocky9_core/Linux/APPZ/packages/cmake/3.26.5/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_78725.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fPIE -o /tmp/ccusNPPi.s]
+        ignore line: [GNU C++17 (M83 GCC 11.5.0 for VFX) version 11.5.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0"]
+        ignore line: [ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/x86_64-pc-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/backward"]
+        ignore line: [ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include"]
+        ignore line: [ignoring duplicate directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/core/Linux/APPZ/packages/sqlite/3.44.0/include"]
+        ignore line: [  as it is a non-system directory that duplicates a system directory]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /core/Linux/APPZ/packages/xz/5.4.5/include]
+        ignore line: [ /core/Linux/APPZ/packages/zlib/1.2.13/include]
+        ignore line: [ /core/Linux/APPZ/packages/libffi/3.4.4/include]
+        ignore line: [ /core/Linux/APPZ/packages/bzip2/1.0.8/include]
+        ignore line: [ /core/Linux/APPZ/packages/sqlite/3.44.0/include]
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0]
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/x86_64-pc-linux-gnu]
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../include/c++/11.5.0/backward]
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include]
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/include-fixed]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/../../include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (M83 GCC 11.5.0 for VFX) version 11.5.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 2b7f440c5d8422a162c0e6dc0363975f]
+        ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78725.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccusNPPi.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-63.el9]
+        ignore line: [COMPILER_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/core/Linux/APPZ/packages/sqlite/3.44.0/lib/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++  -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -v CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_78725   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /home/m83/chulho/gcc/gcc-11.5.0/source/gcc-11.5.0/configure --prefix=/core/Linux/APPZ/packages/gcc/11.5.0 --enable-languages=c c++ fortran --disable-multilib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-checking=release --enable-lto --with-system-zlib --with-pkgversion='M83 GCC 11.5.0 for VFX']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (M83 GCC 11.5.0 for VFX) ]
+        ignore line: [COMPILER_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/core/Linux/APPZ/packages/sqlite/3.44.0/lib/:/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib' '-v' '-o' 'cmTC_78725' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78725.']
+        link line: [ /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/collect2 -plugin /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/liblto_plugin.so -plugin-opt=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccHdrzk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_78725 /lib/../lib64/crt1.o /lib/../lib64/crti.o /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0 -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/core/Linux/APPZ/packages/sqlite/3.44.0/lib -L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../.. CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.5.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cccHdrzk.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_78725] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o] ==> obj [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o]
+          arg [-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib] ==> dir [/core/Linux/APPZ/packages/sqlite/3.44.0/lib]
+          arg [-L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0] ==> dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0]
+          arg [-L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc] ==> dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc]
+          arg [-L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64] ==> dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/core/Linux/APPZ/packages/sqlite/3.44.0/lib] ==> dir [/core/Linux/APPZ/packages/sqlite/3.44.0/lib]
+          arg [-L/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../..] ==> dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../..]
+          arg [CMakeFiles/cmTC_78725.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o] ==> obj [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o]
+        collapse obj [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/core/Linux/APPZ/packages/sqlite/3.44.0/lib] ==> [/core/Linux/APPZ/packages/sqlite/3.44.0/lib]
+        collapse library dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0]
+        collapse library dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc]
+        collapse library dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../../../lib64] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/core/Linux/APPZ/packages/sqlite/3.44.0/lib] ==> [/core/Linux/APPZ/packages/sqlite/3.44.0/lib]
+        collapse library dir [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/bin/../lib/gcc/x86_64-pc-linux-gnu/11.5.0/../../..] ==> [/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtbegin.o;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/core/Linux/APPZ/packages/sqlite/3.44.0/lib;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc/x86_64-pc-linux-gnu/11.5.0;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib/gcc;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib64;/lib64;/usr/lib64;/storage/.NAS5/rocky9_core/Linux/APPZ/packages/gcc/11.5.0/platform_linux/lib]
+        implicit fwks: []
+      
+      
+...

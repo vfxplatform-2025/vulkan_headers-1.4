@@ -1,0 +1,14 @@
+/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/test.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/edit_cache.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/rebuild_cache.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/list_install_components.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/install.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/install/local.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/CMakeFiles/install/strip.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/tests/CMakeFiles/test.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/tests/CMakeFiles/edit_cache.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/tests/CMakeFiles/rebuild_cache.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/tests/CMakeFiles/list_install_components.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/tests/CMakeFiles/install.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/tests/CMakeFiles/install/local.dir
+/home/m83/chulho/vulkan_headers/1.4.325/build/tests/CMakeFiles/install/strip.dir
